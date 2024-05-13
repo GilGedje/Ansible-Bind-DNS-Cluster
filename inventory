@@ -2,9 +2,9 @@ all:
   hosts:
     master:
       ansible_port: 22
-      ansible_host: dns-master
-      ansible_user: root
+      ansible_host: 10.0.5.100
+      ansible_user: dns
     slave:
       ansible_port: 22
-      ansible_host: dns-slave
-      ansible_user: root
+      ansible_host: 10.0.5.102
+      ansible_user: dns
